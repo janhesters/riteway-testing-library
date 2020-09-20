@@ -1,3 +1,7 @@
+# RITEway with Testing Library
+
+Example project to show how to use RITEway (tape) with Testing Library for the [corresponding blog post](janhesters.com/testing-library-the-rite-way).
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

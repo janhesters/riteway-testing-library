@@ -1,0 +1,25 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": [
+              "."
+            ],
+            "alias": {
+              "features": "./src/features"
+            }
+          }
+        ]
+      ]
+    }
+  },
+  "presets": [
+    [
+      "next/babel"
+    ]
+  ],
+  "plugins": []
+}
