@@ -17,7 +17,7 @@ describe('HomePage component', async assert => {
       given: 'a count',
       should: 'render the count',
       actual: $('.count').text(),
-      expected: props.count,
+      expected: props.count.toString(),
     });
   }
 
@@ -29,7 +29,7 @@ describe('HomePage component', async assert => {
       given: 'a count',
       should: 'render the count',
       actual: $('.count').text(),
-      expected: props.count,
+      expected: props.count.toString(),
     });
   }
 
@@ -39,7 +39,7 @@ describe('HomePage component', async assert => {
 
     assert({
       given: 'just rendering',
-      should: 'render increment button',
+      should: 'render the increment button',
       actual: $('.increment-button').length,
       expected: 1,
     });

@@ -1,8 +1,16 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
-function HomePage() {
-  return <Fragment></Fragment>;
+function HomePage({ count, onIncrementClick = () => {} }) {
+  return (
+    <main>
+      <p className="count" data-testid="count">
+        {count}
+      </p>
+      <button className="increment-button" onClick={onIncrementClick}>
+        Increment
+      </button>
+    </main>
+  );
 }
 
 export default HomePage;
-// src/features/home/home-page-component.test.js
